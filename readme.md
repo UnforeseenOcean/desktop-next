@@ -29,6 +29,10 @@ $ npm run build
 Builds the app for macOS, Linux, and Windows, using [electron-packager](https://github.com/electron-userland/electron-packager).
 
 
+## Notes
+> If you want to use Mac please build yourself as the file is 608mb fully compressed as a zip file. I will try and find a better way to package it later
+
+
 ## License
 
 MIT © [Toyz](https://badgedirectory.com)
