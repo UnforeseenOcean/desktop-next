@@ -44,7 +44,7 @@ function createMainWindow() {
 		webPreferences: {
 			nodeIntegration: true,
 			plugins: true,
-			preload: path.resolve(path.join(__dirname, 'manipulatIMVU.js')),
+			preload: path.resolve(path.join(__dirname, 'scripts', 'manipulatIMVU.js')),
 			webSecurity: false
 		},
 		frame: false,

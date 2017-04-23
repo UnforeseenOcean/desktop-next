@@ -105,7 +105,7 @@ window.onload = function() {
 			}
 
 			$('head').append(`<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">`);
-			$('head').append(`<link rel="stylesheet" type="text/css" href="file:///${path.resolve(path.join(__dirname, 'style', 'style.css'))}">`);
+			$('head').append(`<link rel="stylesheet" type="text/css" href="file:///${path.resolve(path.join(__dirname, '..', 'style', 'style.css'))}">`);
 
 			/*
 			jQuery.ajax({
